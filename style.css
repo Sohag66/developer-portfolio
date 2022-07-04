@@ -11,20 +11,23 @@ h1 {
     color: tomato;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
     width: 50%;
     padding-left: 2%;
+
 }
 
 .half-width img {
     width: 80%;
+
 }
 
-.hire-me-button {
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(tomato, orange);
     padding: 10px 40px;
@@ -41,4 +44,24 @@ section {
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 20px 15px firebrick;
+}
+
+#full-stack-developer {
+    border-left: 10px solid skyblue;
+}
+
+#baby-web-developer {
+    border-left: 10px solid rgb(18, 218, 104);
+}
+
+footer p {
+    text-align: center;
 }
